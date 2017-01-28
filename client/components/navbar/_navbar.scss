@@ -1,0 +1,73 @@
+@import '../../sass/utils/variables';
+
+.navbar {
+    background: white;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+
+    #navbar-img {
+        height: 50px;
+        margin-right: 20px;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+
+    .navbar-nav {
+        li {
+            cursor: pointer;
+
+            a {
+                color: black;
+                font-size: 1.5em;
+
+                &:focus {
+                    color: black;
+                }
+
+                &:hover {
+                    color: black;
+                    font-size: 1.7em;
+                }
+            }
+
+            .activeAnchor {
+                color: black;
+            }
+
+            &:hover {
+                border-right: 1px solid black;
+                border-left: 1px solid black;
+            }
+        }
+    }
+
+    .navbar-toggle {
+        background: black;
+        border: none;
+
+        .icon-bar {
+            background: white;
+        }
+
+        &:focus {
+            background: black;
+        }
+
+        &:hover {
+            background: black;
+
+            .icon-bar {
+                background: red;
+            }
+        }
+    }
+
+    .navbar-collapse.in.collapse {
+        border: none;
+
+        li {
+            text-align: center;
+        }
+    }
+}

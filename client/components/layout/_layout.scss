@@ -1,0 +1,36 @@
+@import '../../sass/utils/variables';
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: cursive;
+}
+
+body {
+    background: black;
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline-block !important;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+embed,
+img,
+object,
+video {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,45 @@
+@import '../../sass/utils/variables';
+
+.home-container {
+    margin-top: 20px;
+
+    h1 {
+        color: white;
+    }
+
+    .panel-heading {
+        background: white;
+        padding: 5px;
+
+        h1 {
+            color: black;
+            margin: 0;
+        }
+        height: 100px;
+        max-height: 100px;
+        overflow: visible;;
+    }
+
+    img {
+        height: 300px;
+    }
+
+    .panel-body {
+        background: black;
+        border: 1px solid white;
+        height: 300px;
+        max-height: 300px;
+
+        iframe {
+            width: 90%;
+            height: 275px;
+        }
+    }
+}
+@media screen and (max-width: 850px) {
+    .posts-container {
+        img {
+            height: 200px;
+        }
+    }
+}
